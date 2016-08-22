@@ -192,12 +192,13 @@ ______
 ==========
 """,
 
-"""
-
-""",
+"""""",
 ]
 
-ValidInput = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",]
+validinput = []
+with open("config/validinput.txt", "r") as f:
+	validinput = f.read().replace("\n","")
+	validinput = list(validinput)
 
 lives = 10
 GameActive = True
@@ -208,7 +209,8 @@ clear()
 while GameActive == True:
 	clear()
 	GuessedLetters = " ".join(GuessedLettersList)
-
+	print("Hangman")
+	print("Lives Remaining {0}.".format(lives))
 	print(hangman_pics[lives])
 	print("Guessed Letters: {0}\n".format(GuessedLetters))
 	print(textdisplay)
@@ -217,7 +219,7 @@ while GameActive == True:
 		guess = input("\nGuess a Letter: ").upper()
 		if guess in GuessedLettersList:
 			print("Already Guessed {0}, please choose another letter".format(guess))
-		elif guess not in ValidInput:
+		elif guess not in validinput:
 			print("Invalid Input, please try again.")
 		elif guess in wordletters:
 			GuessActive = False

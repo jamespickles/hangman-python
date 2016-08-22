@@ -5,9 +5,6 @@ This program is made from original code.
 
 Hangman Ascii Art: http://patorjk.com/software/taag/
 
-Word List Sources
-Olympic sport word lists: https://www.olympic.org/sports
-Countries word list: https://www.olympic.org/national-olympic-committees
-Fruit word list: https://simple.wikipedia.org/wiki/List_of_fruits (some of them are very obscure!)
+Sources for the word lists are in the "word_lists" folder
 
 This program was written in Python 3.51 using Sublime Text 3 and tested using the IDLE console and PyCharm.
