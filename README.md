@@ -6,7 +6,7 @@ Compatibility on UNIX platforms such as Mac and Linux is not guaranteed due to u
 
 This program is made from original code.
 
-Hangman Ascii Art: http://patorjk.com/software/taag/
+Ascii art generator, used for hangman title text: http://patorjk.com/software/taag/
 
 Sources for the word lists are in the "word_lists" folder
 
