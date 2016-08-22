@@ -1,6 +1,17 @@
 # hangman-python
 Simple hangman game written in python. Includes some basic word lists.
 
+Features
+
+Custom word lists, user can add their own csv files to the "word_lists" folder
+
+User changeable input settings. The user can choose what characters count as valid input using "validinput.txt" in the "config" folder
+(useful for foreign characters, allow numbers etc)
+
+Hangman illustration with ascii characters
+
+----------
+
 This program has been created and tested on Windows 10.
 Compatibility on UNIX platforms such as Mac and Linux is not guaranteed due to use of the "OS" python module
 
