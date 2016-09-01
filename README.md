@@ -1,7 +1,10 @@
 # hangman-python
 Simple hangman game written in python. Includes some basic word lists.
+This started as a school project but I've uploaded it here for documentation purposes.
+I'm releasing this into the public domain because I didn't create this for personal gain and hope it might help another beginner programmer. (forewarning: my code probably isn't that clear, but I've included lots of comments so you can hopefully how everything works)
+If you have any questions about this project, please contact me using the email on my github profile.
 
-Features
+*Features*
 
 Custom word lists, user can add their own csv files to the "word_lists" folder
 
