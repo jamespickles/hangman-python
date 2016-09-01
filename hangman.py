@@ -69,6 +69,7 @@ word_number = random.randint(1,len(wordlist))
 #finds word in list that matches the random number index
 word = wordlist[word_number].upper()
 #informs user a word has been selected, and notes the use of commas to separate words
+clear()
 print("N.B SPACES BETWEEN WORDS ARE INDICATED AS COMMAS (,)")
 print("\nRandom word selected from {0}".format(wordlist_name))
 #gets length of selected word
@@ -225,7 +226,7 @@ while GameActive == True:
 	#put all guessed letters into easy to read string
 	GuessedLetters = " ".join(GuessedLettersList)
 	print("Hangman")
-	print("Lives Remaining {0}.".format(lives))
+	print("Lives Remaining: {0}".format(lives))
 	#shows current stage of hangman relative to lives remaining
 	print(hangman_pics[lives])
 	#displays all letters already guessed
